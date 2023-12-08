@@ -1,8 +1,8 @@
 <?php
 $gitPath = '"C:/Program Files/Git/bin/git.exe"';
-$repositoryUrl = 'https://github.com/mohit-ram-gupta/token';
+$repositoryUrl = 'https://github.com/mohit-ram-gupta/testrepo';
 
-$command = "$gitPath  status  2>&1";
+$command = "$gitPath add .";
 
 $output = shell_exec($command);
 
